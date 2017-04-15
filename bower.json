@@ -1,0 +1,21 @@
+{
+  "name": "ntask-app",
+  "version": "0.0.0",
+  "authors": [
+    "juniornelson123 <juniornelson123@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.6.4",
+    "bootstrap": "~3.3.7",
+    "angular-route": "~1.6.4",
+    "angular-cookies": "~1.6.4"
+  }
+}

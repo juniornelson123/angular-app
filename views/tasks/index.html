@@ -1,0 +1,13 @@
+<table class="table" ng-init="getTasks()">
+	<tr>
+		<td>Titulo</td>
+		<td>Concluida</td>
+		<td>Opções</td>
+	</tr>
+	<tr ng-repeat="task in tasks">
+		<td>{{ task.title }}</td>
+		<td>{{ task.done }}</td>
+		<td><a href="/index.html/#!/editar/{{task.id}}/tarefa">Editar</a> / <a href="" ng-click="delete(task)">Deletar</a></td>
+	</tr>
+</table>
+<a class="btn btn-primary" href="/index.html/#!/nova/tarefa">Nova Tarefa</a>

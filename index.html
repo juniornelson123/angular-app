@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="ntask">
+<head>
+	<title>NTask</title>
+	<link rel="stylesheet" type="text/css" href="/vendor/bootstrap/dist/css/bootstrap.css">
+</head>
+<body>
+
+	<div ng-include="'/views/main/header.html'" scope="" onload=""></div>
+	<main class="container">
+		<ng-view></ng-view>
+	</main>
+	<div class="text-center" ng-include="'/views/main/footer.html'" scope="" onload=""></div>
+
+	<script type="text/javascript" src="/vendor/angular/angular.js"></script>
+	<script type="text/javascript" src="/vendor/angular-route/angular-route.js"></script>
+	<script type="text/javascript" src="/vendor/angular-cookies/angular-cookies.js"></script>
+	<script type="text/javascript" src="/vendor/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="/vendor/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="/app.js"></script>
+	<script type="text/javascript" src="/route.js"></script>
+	<script type="text/javascript" src="/config/session.service.js"></script>
+	<script type="text/javascript" src="/services/auth.service.js"></script>
+	<script type="text/javascript" src="/services/task.service.js"></script>
+	<script type="text/javascript" src="/controllers/nav.controller.js"></script>
+	<script type="text/javascript" src="/controllers/auth.controller.js"></script>
+	<script type="text/javascript" src="/controllers/task.controller.js"></script>
+	<script type="text/javascript" src="/controllers/home.controller.js"></script>
+</body>
+</html>
